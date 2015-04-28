@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/llParent"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:orientation="vertical" >
+        
+	    		<LinearLayout   		    
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal" >
+				       
+				       
+				        <TextView
+				            android:id="@+id/city_title_Region"
+				            android:text="區域"
+				            android:layout_weight="1"
+							android:button="@null"  
+							android:layout_width="0px"
+							android:layout_height="@dimen/city_select_radiobtn_height"
+							android:background="@drawable/button_city_checked"
+							android:gravity="center"     
+							android:textColor="#956134"
+							android:textSize="@dimen/city_select_title_textsize" />
+											        
+				        
+				        <TextView
+				            android:id="@+id/city_title_Sequence"
+				            android:text="排序"
+				            android:layout_weight="1"
+							android:button="@null"  
+							android:layout_width="0px"
+							android:layout_height="@dimen/city_select_radiobtn_height"
+							android:background="@drawable/button_city_normal"
+							android:gravity="center"     
+							android:textColor="#956134"
+							android:textSize="@dimen/city_select_title_textsize" />
+			    </LinearLayout>
+				<LinearLayout
+				    android:id="@+id/city_select_group"
+				    android:baselineAligned="false"
+			        android:layout_marginLeft="0px"
+			        android:layout_marginRight="0px"
+				    android:layout_width="fill_parent"
+				    android:layout_height="match_parent"
+				    android:stretchColumns="0,1,2"
+				    android:orientation="horizontal"
+				    
+				    >
+		           
+					   <LinearLayout
+			                android:layout_width="0px"
+				            android:layout_height="match_parent"
+				            android:layout_marginTop="0px"
+				            android:layout_marginBottom="0px"
+				            android:layout_weight="1"
+							android:orientation="vertical" >
+			           
+						    <ListView
+								 android:id="@+id/listview_left"
+								 android:layout_width="match_parent"
+								 android:layout_height="wrap_content"
+								 android:choiceMode="singleChoice"
+								 android:divider="@android:color/transparent"
+								 android:scrollbars="none"
+								 ></ListView>
+							<Button
+						        android:id="@+id/dismiss_btn_left"
+						        android:layout_marginTop="0px"
+					            android:layout_width="match_parent"
+					            android:layout_height="match_parent"
+						        android:background="#00000000"
+						        android:gravity="center"
+						        />
+					   </LinearLayout>
+					   <LinearLayout
+			                android:layout_width="0px"
+				            android:layout_height="match_parent"
+				            android:layout_marginTop="0px"
+				            android:layout_marginBottom="0px"
+				            android:layout_weight="1"
+							android:orientation="vertical" >
+						    <ListView
+								 android:id="@+id/listview_right"
+								 android:layout_width="match_parent"
+								 android:layout_height="wrap_content"
+								 android:choiceMode="singleChoice"
+								 android:divider="@android:color/transparent"
+								 android:scrollbars="none"
+								 ></ListView>
+							<Button
+						        android:id="@+id/dismiss_btn_right"
+						        android:layout_marginTop="0px"
+					            android:layout_width="match_parent"
+					            android:layout_height="match_parent"
+						        android:background="#00000000"
+						        />
+					   </LinearLayout>
+						
+				  	 
+				</LinearLayout>      
+</LinearLayout>

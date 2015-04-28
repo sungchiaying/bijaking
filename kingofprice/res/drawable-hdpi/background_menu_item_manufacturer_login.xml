@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/background_menu_item_manufacturer_login_activated" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/background_menu_item_manufacturer_login_activated" android:state_activated="true"></item>
+    <item android:drawable="@drawable/background_menu_item_manufacturer_login_normal"></item>
+  </selector>

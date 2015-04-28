@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_default">
+        <item>@string/drawer_menu_item_store_selection</item>
+        <item>@string/drawer_menu_item_wish_list</item>
+<!--         <item>@string/drawer_menu_item_manufacturer_login</item> -->
+        <item>@string/drawer_menu_item_about_us</item>
+		<item>@string/drawer_menu_item_leadingapp</item>
+    </string-array>
+    
+    <string-array name="menu_login">
+        <item>@string/drawer_menu_item_store_selection</item>
+        <item>@string/drawer_menu_item_wish_list</item>
+        <item>@string/drawer_menu_item_member_center</item>
+<!--    		<item>@string/drawer_menu_item_manufacturer_login</item> -->
+        <item>@string/drawer_menu_item_about_us</item>
+		<item>@string/drawer_menu_item_leadingapp</item>
+    </string-array>
+    
+    <string-array name="menu_imgs_default">
+        <item>@drawable/background_menu_item_store</item>
+        <item>@drawable/background_menu_item_wish_list</item>
+<!--         <item>@drawable/background_menu_item_manufacturer_login</item> -->
+        <item>@drawable/background_menu_item_about_us</item>
+		<item>@drawable/background_menu_item_leading</item>
+    </string-array>
+    
+    <string-array name="menu_imgs_login">
+        <item>@drawable/background_menu_item_store</item>
+        <item>@drawable/background_menu_item_wish_list</item>
+        <item>@drawable/background_menu_item_member_center</item>
+<!--         <item>@drawable/background_menu_item_manufacturer_login</item> -->
+        <item>@drawable/background_menu_item_about_us</item>
+		<item>@drawable/background_menu_item_leading</item>
+    </string-array>
+    
+    <string-array name="login_options">
+        <item>@string/login_log_in</item>
+        <item>@string/login_facebook_log_in</item>
+        <item>@string/login_direct_enter</item>
+    </string-array>
+    
+    <string-array name="password_options">
+        <item>@string/password_commit</item>
+        <item>@string/password_forget</item>
+    </string-array>
+    
+    <string-array name="register_options">
+        <item>@string/password_commit</item>
+    </string-array>
+
+</resources>

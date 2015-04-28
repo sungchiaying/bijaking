@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#595757"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/user_name"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="?android:attr/activatedBackgroundIndicator"
+        android:gravity="left|center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+        android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/log_button"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background_log_button"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+        android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+        android:text="@string/drawer_menu_item_login"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

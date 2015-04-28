@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">日用比價王</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_bar_title_login">登入</string>
+    <string name="action_bar_network_error">網路異常</string>
+    <string name="drawer_menu_item_login">登入</string>
+    <string name="drawer_menu_item_logout">登出</string>
+    <string name="action_bar_title_password">輸入密碼</string>
+    <string name="drawer_menu_item_store_selection">比價搜尋</string>
+    <string name="drawer_menu_item_wish_list">欲購清單</string>
+    <string name="drawer_menu_item_member_center">會員中心</string>
+    <string name="drawer_menu_item_about_us">關於我們</string>
+    <string name="drawer_menu_item_leadingapp">APP教學</string>
+    <string name="drawer_menu_item_manufacturer_login">廠商登入</string>
+    <string name="drawer_menu_item_manufacturer_login_goods">廠商登入商品資訊</string>
+    <string name="login_hint_enter_account">請輸入您的行動電話</string>
+    <string name="login_log_in">註冊 / 登入</string>
+    <string name="login_facebook_log_in">facebook登入</string>
+    <string name="login_direct_enter">直接進入APP</string>
+     <string name="login_phonelenth_error">電話號碼長度不對</string>
+    <string name="password_hint_password">請輸入6~20位之間的半形英數字</string>
+    <string name="password_hint_password_confirm">請再次輸入密碼</string>
+    <string name="password_commit">送出</string>
+    <string name="password_forget">忘記密碼</string>
+    <string name="register_password_empty">密碼不可為空</string>
+    <string name="register_password_inconsistent">密碼不一致</string>
+    <string name="dialog_authorization_remind_title">授權提醒通知</string>
+    <string name="dialog_authorization_remind_message">提醒通知內容</string>
+    <string name="dialog_authorization_remind_positive">同意</string>
+    <string name="dialog_authorization_remind_negative">取消</string>
+    <string name="dialog_forget_password_title">忘記密碼</string>
+    <string name="dialog_forget_password_message">是否撥打客服電話</string>
+    <string name="dialog_forget_password_positive">撥打</string>
+    <string name="dialog_forget_password_negative">取消</string>
+    <string name="mc_name">名　稱</string>
+    <string name="mc_phone">電　話</string>
+    <string name="mc_email">E-mail</string>
+    <string name="mc_pass">密　碼</string>
+    <string name="mc_editmodify">送出</string>
+    <string name="mc_title">會員中心</string>
+    <string name="try_again">再試一次</string>
+    
+    
+    
+    <string name="manufacturerlogin_choose_arae">縣市選擇</string>
+    <string name="manufacturerlogin_choose_zip">區域選擇</string>
+    <string name="manufacturermodify_title">品項修改</string>
+    <string name="mcmodify_title">修改會員資料</string>
+    <string name="mcmodify_name">名　稱</string>
+    <string name="mcmodify_oldpass">舊密碼</string>
+    <string name="mcmodify_newpass">新密碼</string>
+    <string name="mcmodify_confirm_newpass">確認新密碼</string>
+    <string name="mcmodify_enter_name">請輸入名稱</string>
+    <string name="mcmodify_enter_email">請輸入email</string>
+    <string name="mcmodify_enter_pass">請輸入6到20位數密碼</string>
+    <string name="about_us_title">關於我們</string>
+    <string name="wl_title">欲購清單</string>
+    <string name="wl_seletarea">選擇購買區域</string>
+    <string name="wl_goparity">進行比價</string>
+    <string name="wl_choose_location">您選擇的區域是</string>
+    <string name="wl_doller">元</string>
+    <string name="wl_select_price">選擇價格</string>
+    <string name="wl_dialog_ok">確定</string>
+    <string name="wl_dialog_cancel">取消</string>
+    <string name="wl_deletedialog_deletelist">刪除預購清單</string>
+    <string name="wl_deletedialog_delete">刪除</string>
+    <string name="wl_deletedialog_deleteseccess">刪除成功</string>
+    <string name="wl_deletedialog_deletefalse">刪除失敗</string>
+    <string name="wl_deletedialog_cancel">取消</string>
+
+    
+    <string name="sp_date_error">沒有符合的資料</string>
+    <string name="sp_store_title">商店比價</string>
+    <string name="sp_store_name">商店名稱</string>
+    <string name="sp_total_price">總價</string>
+    <string name="pd_title">比價明細</string>
+    <string name="commodity_title">商品</string>
+    <string name="commodity_salse">銷售店家</string>
+    <string name="commodity_sell">商品售價</string>
+    <string name="commodity_login_price">登入價格</string>
+    <string name="commodity_likes">按讚人數</string>
+    <string name="commodity_people">人</string>
+    <string name="commodity_price">商品原價</string>
+    <string name="commodity_doller">元</string>
+    <string name="commodity_addlist">加入欲購清單</string>
+    <string name="commodity_ilike">我要按讚</string>
+    <string name="commodity_toast_like">讚</string>
+    <string name="commodity_toast_liked">已經按過囉</string>
+    <string name="productlist_productprice">最低價格</string>
+    
+    <string name="signin_plzchoose">請選擇</string>
+    <string name="signin_comm_name">通路名稱</string>
+    <string name="signin_area">縣市區域</string>
+    <string name="signin_store_name">店家名稱</string>
+    <string name="signin_comm_price">商品售價</string>
+    <string name="signin_title">登入價格</string>
+    <string name="signin_signin_success">審核通過將顯示變更價格</string>
+    <string name="signin_signin_fales">登入失敗</string>
+    <string name="signin_cant_signin">資料不完整,無法登入</string>
+    <string name="signin_nostorename">此區域沒有店家</string>
+    <string name="signin_choose_storename">請選擇店家名稱</string>
+    <string name="signin_choose_area">請選擇縣市區域</string>
+    <string name="signin_plz_choose_storename">請先選擇通路名稱</string>
+    <string name="signin_plz_choose_area">請先選擇縣市區域</string>
+    <string name="signin_dialog_ok">確定</string>
+    <string name="signin_dialog_cancel">取消</string>
+    
+    <string name="product_list_doller">元</string>
+    
+    <string name="facebook_app_id">735046683255762</string>
+    <string name="search_hint">search</string>
+    <string name="dialog_choose_channel">請選擇通路名稱</string>
+    
+    <string name="network_offline">沒有網路</string>
+    <string name="notlogin">此功能需要會員登入 \n 是否登入/會員註冊</string>
+    
+    <string name="membercentermodify_success_change">會員資料已修改成功</string>
+    <string name="membercentermodify_false">失敗</string>
+    <string name="membercentermodify_pass_error">密碼不一致</string>
+    <string name="user_name_guest">訪客</string>
+    <string name="user_name_default">用戶暱稱</string>
+    <string name="dialog_loading_tile">等待中</string>
+    <string name="dialog_loading_message">請稍候...</string>
+    <string name="phone_number_customer_service">02–2503–6001</string>
+    <string name="about_us_contents">隨著科技的進步、網路資訊的普及，大眾習慣使用手機、平板在網路上瀏覽商品價格，『日用比價王』可根據所在地及通路商的不同，顯示使用者所選擇的商品價格，讓使用者用最有效率的方式得知欲購商品在每個通路下的售價。</string>
+
+</resources>

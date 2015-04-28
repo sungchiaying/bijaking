@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="category_background">#F8C745</color>
+    <color name="category_background_selected">#956134</color>
+    <color name="category_text">#956134</color>
+    <color name="text_button_login">#966234</color>
+    <color name="text_button_try_again">#966234</color>
+    <color name="manufacturer_text_button">#5091c8</color>
+    <color name="manufacturer_grey_text_button">#b5b5b6</color>
+    <color name="comm_loginprice_backgroung">#595757</color>
+    <color name="pl_cost">#DC3843</color>
+
+</resources> 

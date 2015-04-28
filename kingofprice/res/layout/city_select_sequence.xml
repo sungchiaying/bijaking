@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/llParent"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:orientation="vertical" >
+        
+	    		<LinearLayout   		    
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal" >
+				       
+				       
+				        <TextView
+				            android:id="@+id/city_title_Region"
+				            android:text="區域"
+				            android:layout_weight="1"
+							android:button="@null"  
+							android:layout_width="0px"
+							android:layout_height="@dimen/city_select_radiobtn_height"
+							android:background="@drawable/button_city_normal"
+							android:gravity="center"     
+							android:textColor="#956134"
+							android:textSize="@dimen/city_select_title_textsize" />
+											        
+				        
+				        <TextView
+				            android:id="@+id/city_title_Sequence"
+				            android:text="排序"
+				            android:layout_weight="1"
+							android:button="@null"  
+							android:layout_width="0px"
+							android:layout_height="@dimen/city_select_radiobtn_height"
+							android:background="@drawable/button_city_checked"
+							android:gravity="center"     
+							android:textColor="#956134"
+							android:textSize="@dimen/city_select_title_textsize" />
+			    </LinearLayout>
+
+	    		<RadioGroup   		    
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="vertical" >
+				       	<RadioButton
+				       	    android:checked = "true"
+				       	    android:button="@null" 
+				            android:id="@+id/radio_hight"
+						    android:layout_width="match_parent"
+						    android:layout_height="@dimen/city_select_zipcode_height"
+						    android:background="@drawable/city_select_raiobutton_background_white"
+						    android:textColor="@drawable/city_select_raiobutton_textcolor"
+							android:textSize="@dimen/city_select_city_textsize"
+							android:listSelector="@android:color/transparent"
+						    android:gravity="center"
+						    android:adjustViewBounds="true"
+							android:minHeight="45.0dip"
+							android:text="價格由低至高" />
+				       	<RadioButton
+				       	    android:button="@null" 
+				            android:id="@+id/radio_low"
+						    android:layout_width="match_parent"
+						    android:layout_height="@dimen/city_select_zipcode_height"
+						    android:background="@drawable/city_select_raiobutton_background_gray"
+						    android:textColor="@drawable/city_select_raiobutton_textcolor"
+							android:textSize="@dimen/city_select_city_textsize"
+							android:listSelector="@android:color/transparent"
+						    android:gravity="center"
+						    android:adjustViewBounds="true"
+							android:minHeight="45.0dip"
+							android:text="價格由高至低" />
+	    		</RadioGroup>		
+						    
+				
+</LinearLayout>

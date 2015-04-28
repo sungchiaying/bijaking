@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/textView1"
+    android:layout_toRightOf="@+id/textView1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+		    
+		    <LinearLayout
+		        android:layout_width="270dp"
+		        android:layout_height="0dp"
+		        android:layout_marginTop="50dp"
+		        android:layout_weight="1.3"
+		        android:background="@drawable/membermodify_background"
+		        android:gravity="center_horizontal"
+		        android:orientation="vertical" >
+     
+			<LinearLayout
+			    android:id="@+id/imageView1"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:gravity="center_horizontal"
+			    android:orientation="vertical"
+			    android:scaleType="fitXY" >
+			    
+			    <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="0dp"
+			        android:layout_marginLeft="20dp"
+			        android:layout_marginRight="20dp"
+			        android:layout_marginTop="40dp"
+			        android:layout_weight="1"
+			        android:gravity="center" >
+
+				    <TextView
+				        android:layout_width="0dp"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="0px"
+				        android:layout_marginTop="0px"
+				        android:layout_weight="2"
+				        android:scaleType="fitXY"
+				        android:text="@string/mcmodify_name"
+				        android:textColor="@android:color/white"
+				        android:textSize="20sp" >
+
+					</TextView>
+
+				    <EditText
+				        android:id="@+id/mcm_et_name"
+				        android:layout_width="0dp"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="10px"
+				        android:layout_weight="4"
+				        android:background="@drawable/white_square_shape"
+				        android:hint="@string/mcmodify_enter_name"
+				        android:paddingBottom="2dp"
+				        android:paddingLeft="5dp"
+				        android:paddingRight="5dp"
+				        android:paddingTop="2dp"
+				        android:singleLine="true"
+				        android:textColorHint="@color/manufacturer_grey_text_button" />
+				    
+			    </LinearLayout>
+			    
+			    <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="0dp"
+			        android:layout_marginLeft="20dp"
+			        android:layout_marginRight="20dp"
+			        android:layout_weight="1"
+			        android:gravity="center" >
+
+				    <TextView
+				        android:layout_width="0dp"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="0px"
+				        android:layout_marginTop="0px"
+				        android:layout_weight="2"
+				        android:text="@string/mc_email"
+				        android:textColor="@android:color/white"
+				        android:textSize="20sp" >
+
+					</TextView>
+
+					<EditText
+					    android:id="@+id/mcm_et_email"
+					    android:layout_width="0dp"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="10px"
+					    android:layout_weight="4"
+					    android:background="@drawable/white_square_shape"
+					    android:hint="@string/mcmodify_enter_email"
+					    android:inputType="textEmailAddress"
+					    android:paddingBottom="2dp"
+					    android:paddingLeft="5dp"
+					    android:paddingRight="5dp"
+					    android:paddingTop="2dp"
+					    android:singleLine="true"
+					    android:textColorHint="@color/manufacturer_grey_text_button" />
+		
+				</LinearLayout>
+			    
+			    <LinearLayout
+			        android:layout_width="match_parent"
+			        android:layout_height="0dp"
+			        android:layout_marginLeft="20dp"
+			        android:layout_marginRight="20dp"
+			        android:layout_weight="1"
+			        android:gravity="center" >
+
+					<TextView
+					    android:layout_width="0dp"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="0px"
+					    android:layout_marginTop="0px"
+					    android:layout_weight="2"
+					    android:text="@string/mcmodify_oldpass"
+					    android:textColor="@android:color/white"
+					    android:textSize="20sp" >
+
+					</TextView>
+
+					<EditText
+					    android:id="@+id/mcm_et_oldpass1"
+					    android:layout_width="0dp"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="10px"
+					    android:layout_weight="4"
+					    android:background="@drawable/white_square_shape"
+					    android:hint="@string/mcmodify_enter_pass"
+					    android:inputType="textPassword"
+					    android:paddingBottom="2dp"
+					    android:paddingLeft="5dp"
+					    android:paddingRight="5dp"
+					    android:paddingTop="2dp"
+					    android:singleLine="true"
+					    android:textColorHint="@color/manufacturer_grey_text_button" />
+	
+				</LinearLayout>
+							
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="0dp"
+				    android:layout_marginLeft="20dp"
+				    android:layout_marginRight="20dp"
+				    android:layout_weight="1"
+				    android:gravity="center" >
+
+					<TextView
+					    android:layout_width="0dp"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="0px"
+					    android:layout_marginTop="0px"
+					    android:layout_weight="2"
+					    android:text="@string/mcmodify_newpass"
+					    android:textColor="@android:color/white"
+					    android:textSize="20sp" >
+
+					</TextView>
+
+					<EditText
+					    android:id="@+id/mcm_et_oldpass2"
+					    android:layout_width="0dp"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="10px"
+					    android:layout_weight="4"
+					    android:background="@drawable/white_square_shape"
+					    android:hint="@string/mcmodify_enter_pass"
+					    android:inputType="textPassword"
+					    android:paddingBottom="2dp"
+					    android:paddingLeft="5dp"
+					    android:paddingRight="5dp"
+					    android:paddingTop="2dp"
+					    android:singleLine="true"
+					    android:textColorHint="@color/manufacturer_grey_text_button" />
+	
+				</LinearLayout>
+
+				<LinearLayout
+				    android:layout_width="match_parent"
+				    android:layout_height="0dp"
+				    android:layout_marginLeft="20dp"
+				    android:layout_marginRight="20dp"
+				    android:layout_weight="1"
+				    android:gravity="center" >
+
+					<TextView
+					    android:layout_width="0dp"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="0px"
+					    android:layout_marginTop="0px"
+					    android:layout_weight="1.5"
+					    android:text="@string/mcmodify_confirm_newpass"
+					    android:textColor="@android:color/white"
+					    android:textSize="20sp" >
+
+					</TextView>
+
+					<EditText
+					    android:id="@+id/mcm_et_newpass"
+					    android:layout_width="0dp"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="10px"
+					    android:layout_weight="1.8"
+					    android:background="@drawable/white_square_shape"
+					    android:hint="@string/mcmodify_enter_pass"
+					    android:inputType="textPassword"
+					    android:paddingBottom="2dp"
+					    android:paddingLeft="5dp"
+					    android:paddingRight="5dp"
+					    android:paddingTop="2dp"
+					    android:singleLine="true"
+					    android:textColorHint="@color/manufacturer_grey_text_button" />
+	
+				</LinearLayout>
+
+				<LinearLayout
+				    android:layout_width="wrap_content"
+				    android:layout_height="0dp"
+				    android:layout_weight="1"
+				    android:gravity="center" >
+
+			    </LinearLayout>
+		    </LinearLayout>
+	        </LinearLayout>
+
+		    <LinearLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="0dp"
+		        android:layout_weight="1" >
+
+		        <Button
+		            android:id="@+id/mcm_btn_send"
+		            android:layout_width="240dp"
+		            android:layout_height="40dp"
+		            android:layout_marginTop="10dp"
+		            android:background="@drawable/background_login_button"
+		            android:gravity="center"
+		            android:scaleType="fitXY"
+		            android:text="@string/mc_editmodify"
+		            android:textColor="@color/category_background_selected"
+		            android:textSize="24sp" />
+
+		    </LinearLayout>
+
+</LinearLayout>

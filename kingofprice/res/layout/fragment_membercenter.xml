@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/edit_text"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/mc_background"
+        android:layout_width="270dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/membercenter_background" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/mc_center_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mc_background"
+        android:layout_alignLeft="@+id/mc_background"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/mc_background"
+        android:layout_alignTop="@+id/mc_background"
+        android:layout_marginTop="50dp"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/mc_name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/mc_tv_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2.5"
+                android:background="@drawable/white_square_shape"
+                android:padding="2dp" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_name"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/mc_phone"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/mc_tv_phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2.5"
+                android:background="@drawable/white_square_shape"
+                android:padding="2dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_e_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_phone"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/mc_email"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/mc_tv_email"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2.5"
+                android:background="@drawable/white_square_shape"
+                android:padding="2dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_press"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_e_mail"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp" >
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/mc_pass"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/mc_tv_press"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="2.5"
+                android:background="@drawable/white_square_shape"
+                android:padding="2dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/layout_gomodify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mc_center_layout"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/mc_btn_gomodify"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:background="@drawable/background_login_button"
+            android:text="@string/mcmodify_title"
+            android:textColor="@color/category_background_selected"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

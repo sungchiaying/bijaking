@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_radio"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/city_select_zipcode_height"
+    android:background="@drawable/city_select_listview_background_gray"
+    android:textColor="@drawable/city_select_listview_textcolor"
+	android:textSize="@dimen/city_select_city_textsize"
+	android:listSelector="@android:color/transparent"
+    android:gravity="center"
+    android:adjustViewBounds="true"
+	android:minHeight="45.0dip" />
+    

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edittext_account"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/background_login_account"
+        android:gravity="center"
+        android:hint="@string/login_hint_enter_account"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_login_button"
+        android:gravity="center"
+        android:text="@string/login_log_in"
+        android:textColor="@color/text_button_login"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_fb_login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_fb_login_button"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="@string/login_facebook_log_in"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_direct_enter"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_login_button"
+        android:gravity="center"
+        android:text="@string/login_direct_enter"
+        android:textColor="@color/text_button_login"
+        android:textSize="25sp" />
+
+</LinearLayout>
